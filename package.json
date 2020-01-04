@@ -1,0 +1,15 @@
+{
+  "name": "introduction-to-sass-and-npm",
+  "version": "1.0.0",
+  "description": "introduction to sass and npm",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/style.scss css/style.css"
+  },
+  "author": "Luke",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
